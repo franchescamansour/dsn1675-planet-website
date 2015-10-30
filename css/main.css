@@ -19,94 +19,118 @@ html{
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
-header{
+header {
   background-color: grey;
 }
-h1{
+
+h1 {
   text-align: center;
   margin: .25em .5em;
 }
-.center{
+
+.center {
   text-align: center;
 }
-ol{
+
+ol {
   margin-top: 3em;
   padding-left: 0;
 }
 
-header li{
+header li {
   list-style: none;
   margin: .5em;
   padding: 1em;
 }
-header li:hover{
+
+header li:hover {
   background-color: #2b91f5;
 }
+
 header a:hover{
   color: white;
 }
+
 a{
   text-decoration: none;
 color: #1579db;
 }
+
 .margin{
   margin-right: -1em;
 }
-footer li{
+
+footer li {
   list-style: none;
 }
-.img-flex{
+
+.img-flex {
   width:100%;
   display: block;
 }
-dd{
+
+dd {
   margin: 0 0 1em 0;
 }
-.info{
+
+.info {
   margin: 1em;
 }
-.pt{
+
+.pt {
   padding-top: 1.5em;
 }
-.tb{
+
+.tb {
   margin: 1.5em 0;
 }
-.pad{
+
+.pad {
   padding: 1em;
   background-color: silver;
 }
-.pad2{
+
+.pad2 {
   padding: 1.5em;
 }
-figcaption{
+
+figcaption {
 margin: 1em;
 }
-.textmargin{
+
+.textmargin {
   margin: 0 1em;
 }
+
 .marginleft {
 margin-left: 1em;
 margin-top: .8em;
 }
+
 figure {
   margin: 0;
 }
-ol{
+
+ol {
   padding-left:0;
   margin: 0;}
+
 .grey {
   background-color: #eeeeee;
 }
-.lightgrey{
+
+.lightgrey {
   background-color: #eeeeee;
 }
-.banner{
+
+.banner {
   background-color: silver;
 }
+
 
 @media only screen and (min-width: 25em){
 
